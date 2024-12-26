@@ -38,12 +38,7 @@
     height: 400px;
     padding: 0 30px;
 }
-.small-line-black-blue {
-    font-size: 1.3rem;
-    line-height: 1.8rem;
-    color: #051922;
-    letter-spacing: 0.5px;
-}
+
 .time-gap {
     gap: 3px;
     line-height: 1em;

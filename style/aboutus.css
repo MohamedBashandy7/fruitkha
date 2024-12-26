@@ -1,0 +1,39 @@
+.abt-bg {
+    background-image: url(../imgs/feature-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    border-radius: 0 10px;
+}
+.play-video {
+    background-color: #f28123;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 30px;
+}
+.video-play-btn {
+    background-image: url(../imgs/SVG/play_video.svg);
+}
+
+/* .mido p {
+    line-height: 1.6;
+    font-size: 15px;
+    padding: 0 50px;
+}
+.mido h1 {
+    padding-left: 50px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+}*/
+
+.play-video :hover {
+    background-color: #000;
+    color: #f28123 !important;
+    transition: all 0.5s ease-in-out;
+}
+.aboutus-h1 {
+    padding: 0;
+    margin: 0;
+}

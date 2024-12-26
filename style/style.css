@@ -34,3 +34,12 @@ body {
 .width-30-p {
     width: 30%;
 }
+.width-20-p {
+    width: 20%;
+}
+.small-line-black-blue {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    color: #051922;
+    letter-spacing: 0.5px;
+}
