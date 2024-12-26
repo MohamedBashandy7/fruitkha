@@ -62,3 +62,91 @@ saged-body {
     margin-bottom: 15px;
   }
 
+<!-- News section-->
+.sagoda-body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    .news-section {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .news-section h1 {
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .news-section h1 span {
+      color: orange;
+    }
+
+    .news-section .description {
+      font-size: 1rem;
+      color: #777;
+      margin-bottom: 30px;
+    }
+
+    .news-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .news-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 300px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .news-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      border: 5px solid #f1f1f1;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .news-card h3 {
+      font-size: 1.2rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .news-card .meta {
+      font-size: 0.9rem;
+      color: #999;
+      margin-bottom: 15px;
+    }
+
+    .news-card p {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .news-card .read-more {
+      font-size: 0.95rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: orange;
+    }
+
+    .news-card .read-more:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .news-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    
