@@ -1,4 +1,18 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.orange-text {
+    color: #f28123;
+}
+.small-line-orange {
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 1px;
+    background-color: #f28123;
+}
+.px-100 {
+    padding: 100px 0;
 }
