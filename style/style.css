@@ -13,6 +13,24 @@ body {
     height: 1px;
     background-color: #f28123;
 }
-.px-100 {
+.py-100 {
     padding: 100px 0;
+}
+.bg-white-gray {
+    background-color: #f5f5f5;
+}
+.py-70 {
+    padding: 70px 0;
+}
+.c-black {
+    color: black;
+}
+.my-50 {
+    margin: 50px 0;
+}
+.bg-orange-main {
+    background-color: #f28123;
+}
+.width-30-p {
+    width: 30%;
 }
