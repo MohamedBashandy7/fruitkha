@@ -13,120 +13,24 @@ body {
     height: 1px;
     background-color: #f28123;
 }
-.px-100 {
+.py-100 {
     padding: 100px 0;
 }
- 
-عمر 
-.deal-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  max-width: 1200px;
-  margin: 20px auto;
+.bg-white-gray {
+    background-color: #f5f5f5;
 }
-
-.discount-badge {
-  background-color: #ff8c42;
-  color: #fff;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  text-align: center;
+.py-70 {
+    padding: 70px 0;
 }
-
-.deal-content {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+.c-black {
+    color: black;
 }
-
-.deal-image {
-  max-width: 200px;
-  border-radius: 8px;
+.my-50 {
+    margin: 50px 0;
 }
-
-.deal-details {
-  max-width: 600px;
+.bg-orange-main {
+    background-color: #f28123;
 }
-
-.deal-details h2 {
-  font-size: 24px;
-  color: #ff8c42;
-}
-
-.deal-details span {
-  color: #333;
-}
-
-.countdown {
-  display: flex;
-  gap: 10px;
-  margin: 10px 0;
-}
-
-.time-box {
-  background-color: #ff8c42;
-  color: #fff;
-  padding: 10px;
-  border-radius: 4px;
-  text-align: center;
-  font-size: 14px;
-}
-
-.add-to-cart {
-  background-color: #ff8c42;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.add-to-cart:hover {
-  background-color: #ff6c1a;
-}
-
-button {
-  border-radius: 100px;
-}
-/* Media Queries */
-@media (max-width: 768px) {
-  .deal-section {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .deal-content {
-    flex-direction: column;
-  }
-
-  .deal-image {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 480px) {
-  .discount-badge {
-    width: 80px;
-    height: 80px;
-    font-size: 12px;
-  }
-
-  .deal-details h2 {
-    font-size: 18px;
-  }
-
-  .time-box {
-    font-size: 12px;
-    padding: 8px;
-  }
+.width-30-p {
+    width: 30%;
 }
