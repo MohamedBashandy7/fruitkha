@@ -6,7 +6,12 @@
     border-radius: 0 10px;
     height: 400px;
     width: 500px;
-    background-color: hsla(0, 0%, 0%, 0.502); /* Dark overlay with 50% opacity */
+    background-color: hsla(
+        0,
+        0%,
+        0%,
+        0.502
+    ); /* Dark overlay with 50% opacity */
     background-blend-mode: darken;
 }
 .aboutus h2 {
@@ -33,6 +38,7 @@
     padding: 20px 28px;
     font-size: 28px;
     color: black;
+    text-align: center;
 }
 .video-play-btn {
     height: 350px;
@@ -40,5 +46,8 @@
 .video-play-btn :hover {
     background-color: #333333;
     color: #f28123;
-    transition: 0.5s;
+    transition: all 0.5s ease-in-out;
+}
+.play-icon {
+    font-weight: 900;
 }
