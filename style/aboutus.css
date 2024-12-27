@@ -7,15 +7,15 @@
     height: 400px;
     width: 500px;
 }
-.aboutus h2{
+.aboutus h2 {
     font-size: 3rem;
 }
-.aboutus p{
+.aboutus p {
     width: 450px;
 }
-.aboutus a.btn{
+.aboutus a.btn {
     display: inline-block;
-    background-color: #F28123;
+    background-color: #f28123;
     color: #fff;
     padding: 10px 20px;
     border-radius: 50px;
@@ -24,7 +24,7 @@
     background-color: #f28123;
     border-radius: 50%;
     padding: 20px 28px;
-    font-size: 30px;
+    font-size: 28px;
     color: black;
 }
 .video-play-btn {
