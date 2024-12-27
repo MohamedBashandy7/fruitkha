@@ -43,3 +43,17 @@ body {
     color: #051922;
     letter-spacing: 0.5px;
 }
+.text-bold {
+    font-weight: bold;
+}
+/* Mobile Devices */
+@media (max-width: 480px) {
+    .media-w-80 {
+        width: 80% !important;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .media-w-80 {
+        width: 80% !important;
+    }
+}
