@@ -1,52 +1,50 @@
-.bg-img{
+.bg-img {
     background-image: url(../imgs/hero-bg.jpg);
     background-size: cover;
     text-align: center;
-    padding:250px;
+    padding: 250px;
 }
-h4{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* h4 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     color: rgb(221, 64, 7);
-    color: #F28123;
+    color: #f28123;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 7px;
     font-size: 15px;
 }
-h1{
+h1 {
     color: white;
     font-size: 50px;
 }
-div{
-padding-top: 10px;
-}
-.b{
+div {
+    padding-top: 10px;
+} */
+.b {
     border: solid 7px#F28123;
-    background-color:#F28123;
+    background-color: #f28123;
     color: #fff;
     border-radius: 50px;
     padding: 10px 20px;
-    text-decoration:none;
+    text-decoration: none;
     font-size: 20px;
     font-weight: 30px;
 }
-.b:hover{
+.b:hover {
     background-color: black;
-    color: #F28123;
+    color: #f28123;
     border: solid 7px black;
-
 }
-.c{
+.c {
     border: solid 2px#F28123;
     color: #fff;
     border-radius: 50px;
     padding: 10px 20px;
     margin-left: 15px;
-    text-decoration:none;
+    text-decoration: none;
     font-size: 20px;
     font-weight: 30px;
 }
-.c:hover{
-    background-color:#F28123;
+.c:hover {
+    background-color: #f28123;
 }
-

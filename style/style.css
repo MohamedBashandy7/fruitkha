@@ -43,3 +43,6 @@ body {
     color: #051922;
     letter-spacing: 0.5px;
 }
+.text-bold {
+    font-weight: bold;
+}
