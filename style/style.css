@@ -46,3 +46,14 @@ body {
 .text-bold {
     font-weight: bold;
 }
+/* Mobile Devices */
+@media (max-width: 480px) {
+    .media-w-80 {
+        width: 80% !important;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .media-w-80 {
+        width: 80% !important;
+    }
+}
