@@ -1,0 +1,23 @@
+.Shop-Owner {
+    border-radius: 50%;
+}
+user-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.user-card-text {
+    font-size: 20;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+.user-card-text2 {
+    padding-top: 20px;
+    width: 700px;
+    font-size: 20px;
+}
+.user-card-text3 {
+    font-size: 30px;
+}
