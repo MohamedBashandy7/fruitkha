@@ -1,13 +1,14 @@
-.aboutus{
-    height: 250px;
-}
 .img-bg {
     background-image: url(../imgs/feature-bg.jpg);
-    background-size: 100%;
     background-repeat: no-repeat;
-    width: 500px;
-    height: 500px;
+    background-position: center;
+    background-size: cover;
     border-radius: 0 10px;
+    height: 400px;
+    width: 500px;
+}
+.aboutus h2{
+    font-size: 3rem;
 }
 .aboutus p{
     width: 450px;
