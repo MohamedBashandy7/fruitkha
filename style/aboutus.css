@@ -20,18 +20,17 @@
     padding: 10px 20px;
     border-radius: 50px;
 }
-/* .play-video {
+.play-video {
     background-color: #f28123;
     border-radius: 50%;
-    padding: 20px;
+    padding: 20px 28px;
     font-size: 30px;
+    color: black;
 }
 .video-play-btn {
-    background-image: url(../imgs/SVG/play_video.svg);
+    height: 350px;
 }
-
-.play-video :hover {
-    background-color: #000;
-    color: #f28123 !important;
-    transition: all 0.5s ease-in-out;
-} */
+.video-play-btn :hover {
+    background-color: #333333;
+    color: #f28123;
+}
