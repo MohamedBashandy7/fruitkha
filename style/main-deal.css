@@ -7,6 +7,8 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    top: -430px;
+    left: 80px;
 }
 .socend-circle {
     background-color: #f28123;
@@ -18,18 +20,15 @@
     align-items: center;
     justify-content: center;
     letter-spacing: 0.1px;
-    position: relative;
 }
 .perfect-price-text {
     margin: 0;
     padding: 0;
 }
 .price-text-p {
-    position: relative;
     font-size: 15px;
 }
 .price-text-strong {
-    position: relative;
     font-weight: bolder;
     font-size: 24px;
 }
@@ -66,44 +65,4 @@
     color: #f28123 !important;
     background-color: black;
     transition: all 0.5s ease-in-out;
-}
-.banner {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-.banner img {
-  width: 100%;
-  height: auto;
-}
-.banner-content {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translateY(-50%);
-  color: #000;
-}
-
-.banner-content h1 {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #222;
-}
-.banner-content h1 span {
-  color: #f48024;
-}
-.banner-content p {
-  display: block;
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  color: #555;
-}
-.banner-content .btn {
-  background-color: #f48024;
-  color: #fff;
-  border-radius: 50px;
-  font-weight: bold;
-}
-.banner-content .btn:hover {
-  background-color: #d8691b;
 }

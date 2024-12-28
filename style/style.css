@@ -4,7 +4,10 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 .orange-text {
-    color: #f28123;
+    color: #f28123 !important;
+}
+.py-25 {
+    padding: 25px 0;
 }
 .small-line-orange {
     padding: 0;
@@ -12,6 +15,9 @@ body {
     width: 50px;
     height: 1px;
     background-color: #f28123;
+}
+.black-blue-c {
+    color: #051922 !important;
 }
 .py-100 {
     padding: 100px 0;
@@ -36,6 +42,11 @@ body {
 }
 .width-20-p {
     width: 20%;
+}
+.btn-hover:hover {
+    color: #f28123 !important;
+    background-color: black;
+    transition: all 0.5s ease-in-out;
 }
 .small-line-black-blue {
     font-size: 1.3rem;
