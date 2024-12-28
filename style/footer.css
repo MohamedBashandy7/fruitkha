@@ -73,12 +73,15 @@ footer span{
 .footer ul li a:hover {
     text-decoration: none;
     color: #f28123;
+    transition: 0.5s;
 }
 .email-box button:hover {
     background-color: #F28123;
     color: #051922;
+    transition: 0.5s;
 }
 .social-links .btn:hover{
     color: #f28123;
+    transition: 0.5s;
 }
 /* Mobile Devices */
