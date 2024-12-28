@@ -1,40 +1,39 @@
-header{
+header {
     display: flex;
-   }
-   img{
-    width:250px  ;  
+}
+/* img {
+    width: 250px;
     padding-left: 100px;
-   }
-   ul{
-       display: flex;
-       list-style-type: none;
-       text-align: center;
-       padding-left: 200px;
-   }
-   a{
-       text-decoration:none;
-       /* color: #fff; */
-       font-size: 30px;
-       color: #af2d2d;
-   }
-   li{
-       padding: 5px;
-   }
-   .lis{
-       display: none;
-       color: #000;
-   }
-   .list:hover .lis{
-   display: block;
-   color: #000;
-   }
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 200px;
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #af2d2d;
+}
+li {
+    padding: 5px;
+} */
+.lis {
+    display: none;
+    color: #000;
+}
+.list:hover .lis {
+    display: block;
+    color: #000;
+}
 .bg-img {
     background-image: url(../imgs/hero-bg.jpg);
     background-size: cover;
     text-align: center;
     padding: 250px;
 }
-h4 {
+/* h4 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     color: rgb(221, 64, 7);
     color: #f28123;
@@ -48,8 +47,8 @@ h1 {
     font-size: 50px;
 }
 div {
-    padding-top: 10px;
-}
+    padding-top: 10px; 
+}*/
 .b {
     border: solid 7px#F28123;
     background-color: #f28123;
