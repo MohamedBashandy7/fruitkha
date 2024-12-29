@@ -2,11 +2,12 @@
 .footer {
     background-color: #051922;
     margin: 0;
+    padding: 50px 0 10px 0;
     color: #fff;
 }
 .footer-col {
     width: 25%;
-    margin: 30px;
+    margin: 20px 30px;
     display: inline-block;
     vertical-align: top;
 }
@@ -17,8 +18,7 @@
 .footer p {
     color: #b4babd;
     font-size: 14px;
-    margin-top: 20px;
-    line-height: 1.75rem;
+    margin: 5px 10px;
     font-size: 18px;
 }
 .footer ul {
@@ -62,7 +62,7 @@
     --bs-text-opacity: 1;
     color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
     margin: 0;
-    padding: 0;
+    padding: 5px 0;
 }
 .social-links .btn{
     color: #b4babd;
