@@ -25,7 +25,7 @@ header {
     padding: 8px;
 }
 
-.lis {
+.lis, .liis {
     visibility: hidden;
     padding: 20px 40px 20px 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
@@ -36,6 +36,9 @@ header {
     left: 37.5%;
     border-radius: 5px;
     top: 55px;
+}
+.liis{
+    left: 40.5px;
 }
 .main-link-a:hover {
     color: #f28123 !important;
