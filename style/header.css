@@ -1,0 +1,105 @@
+header {
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.main-list {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    gap: 20px;
+    margin-right: 100px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-link {
+    text-decoration: none;
+    font-size: 15px;
+}
+.sub-links {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.lis {
+    visibility: hidden;
+    padding: 20px 40px 20px 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    position: absolute;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+    list-style-type: none;
+    left: 37.5%;
+    border-radius: 5px;
+    top: 55px;
+}
+.main-link-a:hover {
+    color: #f28123 !important;
+    transition: all 0.5s ease-in-out;
+}
+.list:hover .lis {
+    transition: all 0.5s ease-in-out;
+    visibility: visible;
+    color: #000;
+}
+.bg-img {
+    background-image: url(../imgs/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #201f1f80; /* لون شفاف */
+    background-blend-mode: overlay; /* دمج اللون مع الخلفية */
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 145px;
+    height: 43px;
+}
+/* h4 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(221, 64, 7);
+    color: #f28123;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 15px;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+}
+div {
+    padding-top: 10px;
+} */
+.b {
+    border: solid 7px#F28123;
+    background-color: #f28123;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 30px;
+}
+.b:hover {
+    background-color: black;
+    color: #f28123;
+    border: solid 7px black;
+}
+.c {
+    border: solid 2px#F28123;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 30px;
+}
+.c:hover {
+    background-color: #f28123;
+}
