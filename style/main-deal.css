@@ -78,6 +78,9 @@
 }
 
 @media (max-width: 480px) {
+  .Month-Deal {
+    margin: -20px 0;
+  }
     .first-circle {
         position: initial;
     }
@@ -87,7 +90,7 @@
     }
 
     .Month-Deal h1 {
-        font-size: 3rem;
+        font-size: 2.2rem;
         text-align: center;
         margin: 10px 0; 
         font-weight: bold; 
@@ -134,8 +137,8 @@
         justify-content: center; 
         align-items: center; 
         width: 85%;
-        margin: 10px 30px; 
-        padding: 10px 20px; 
+        margin: 25px 30px; 
+        padding: 10px 5px; 
         font-size: 1rem; 
         text-align: center; 
     }
@@ -197,7 +200,7 @@
     }
 
     .Month-Deal h1 {
-        font-size: 2.5rem;
+        font-size:2.5rem;
         text-align: center;
         font-weight: bold;
     }
@@ -213,7 +216,7 @@
     }
 
     .Month-Deal h5 {
-        font-size: 1.4rem; 
+        font-size: 1.5rem; 
         font-weight: bold;
         text-align: center;
         margin: 10px 0;
@@ -224,8 +227,8 @@
         justify-content: center; 
         align-items: center; 
         width: 100%; 
-        margin: 10px 30px; 
-        padding: 12px 24px; 
+        margin: 20px 30px; 
+        padding: 12px 16px; 
         font-size: 1.2rem; 
         text-align: center; 
     }
@@ -234,4 +237,3 @@
         margin-right: 3px; 
     }
 }
-
