@@ -50,6 +50,11 @@ header {
     visibility: visible;
     color: #000;
 }
+.lisst:hover .liis {
+    transition: all 0.5s ease-in-out;
+    visibility: visible;
+    color: #000;
+}
 .bg-img {
     background-image: url(../imgs/hero-bg.jpg);
     background-size: cover;
