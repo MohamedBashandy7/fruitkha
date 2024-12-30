@@ -26,7 +26,7 @@ header {
 }
 
 .lis,
-.liis {
+.lis2 {
     visibility: hidden;
     padding: 20px 40px 20px 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
@@ -38,8 +38,8 @@ header {
     border-radius: 5px;
     top: 55px;
 }
-.liis {
-    left: 40.5px;
+.lis2 {
+    left: 50.5px;
 }
 .main-link-a:hover {
     color: #f28123 !important;
@@ -50,7 +50,7 @@ header {
     visibility: visible;
     color: #000;
 }
-.list:hover .liis {
+.list:hover .lis2 {
     transition: all 0.5s ease-in-out;
     visibility: visible;
     color: #000;
