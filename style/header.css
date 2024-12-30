@@ -50,7 +50,7 @@ header {
     visibility: visible;
     color: #000;
 }
-.lisst:hover .liis {
+.list:hover .liis {
     transition: all 0.5s ease-in-out;
     visibility: visible;
     color: #000;
