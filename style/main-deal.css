@@ -79,8 +79,8 @@
 
 @media (max-width: 480px) {
     .py-70 {
-    padding: 30px 0;
-  }
+        padding: 30px 0;
+    }
 
     .first-circle {
         position: initial;
@@ -93,78 +93,78 @@
     .Month-Deal h1 {
         font-size: 2.2rem;
         text-align: center;
-        margin: 10px 0; 
-        font-weight: bold; 
+        margin: 10px 0;
+        font-weight: bold;
     }
 
     .Month-Deal p {
         font-size: 1rem;
         text-align: justify;
     }
-    
-     .first-circle, 
+
+    .first-circle,
     .socend-circle {
-        display: none; 
+        display: none;
     }
 
     .Month-Deal h5 {
-        font-size: 1.4rem; 
-        font-weight: bold; 
+        font-size: 1.4rem;
+        font-weight: bold;
         text-align: center;
     }
-    
-        .time-gap {
+
+    .time-gap {
         display: flex;
-        justify-content: center; 
-        gap: 1px; 
+        justify-content: center;
+        gap: 1px;
     }
 
     .time-box {
         display: flex;
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
         justify-content: center;
-        font-weight: bold; 
-        font-size: 6rem; 
+        font-weight: bold;
+        font-size: 6rem;
     }
 
     .time {
-        font-size: 6rem; 
-        font-weight: bold; 
+        font-size: 6rem;
+        font-weight: bold;
     }
-    
-        .Cart-link {
+
+    .Cart-link {
         display: flex;
-        justify-content: center; 
-        align-items: center; 
+        justify-content: center;
+        align-items: center;
         width: 85%;
-        margin: 25px 30px; 
-        padding: 10px 5px; 
-        font-size: 1rem; 
-        text-align: center; 
+        margin: 25px 30px;
+        padding: 10px 5px;
+        font-size: 1rem;
+        text-align: center;
     }
 
     .Cart-link i {
-        margin-right: 3px; 
+        margin-right: 3px;
     }
-    
-     .d-flex.flex-column {
+
+    .d-flex.flex-column {
         display: flex;
-        justify-content: center; 
-        align-items: center; 
-        text-align: center; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .py-3 {
-        margin: 0 20px; 
+        margin: 0 20px;
     }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
     .py-70 {
-    padding: 30px 0;
-  }
-  
+        padding: 30px 0;
+    }
+
     .first-circle {
         position: initial;
     }
@@ -172,32 +172,32 @@
     .time-gap {
         display: flex;
         justify-content: center;
-        gap: 1px; 
+        gap: 1px;
     }
 
     .time-box {
         display: flex;
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
         justify-content: center;
-        font-weight: bold; 
-        font-size: 6rem; 
+        font-weight: bold;
+        font-size: 6rem;
     }
 
     .time {
-        font-size: 6rem; 
-        font-weight: bold; 
+        font-size: 6rem;
+        font-weight: bold;
     }
 
     .s-with-m {
         display: none;
     }
-    
-      .d-flex.flex-column {
+
+    .d-flex.flex-column {
         display: flex;
-        justify-content: center; 
-        align-items: center; 
-        text-align: center; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .py-3 {
@@ -205,7 +205,7 @@
     }
 
     .Month-Deal h1 {
-        font-size:2.5rem;
+        font-size: 2.5rem;
         text-align: center;
         font-weight: bold;
     }
@@ -214,31 +214,31 @@
         font-size: 1.2rem;
         text-align: justify;
     }
-    
-        .first-circle, 
+
+    .first-circle,
     .socend-circle {
-        display: none; 
+        display: none;
     }
 
     .Month-Deal h5 {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
         font-weight: bold;
         text-align: center;
         margin: 10px 0;
     }
-    
-        .Cart-link {
+
+    .Cart-link {
         display: flex;
-        justify-content: center; 
-        align-items: center; 
-        width: 100%; 
-        margin: 20px 30px; 
-        padding: 12px 16px; 
-        font-size: 1.2rem; 
-        text-align: center; 
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 20px 30px;
+        padding: 12px 16px;
+        font-size: 1.2rem;
+        text-align: center;
     }
 
     .Cart-link i {
-        margin-right: 3px; 
+        margin-right: 3px;
     }
 }
