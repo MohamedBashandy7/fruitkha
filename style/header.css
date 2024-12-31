@@ -11,7 +11,7 @@ header {
     margin-right: 100px;
 }
 .header {
-    margin: -70px;
+    margin-top: -60px;
     display: flex;
     justify-content: space-between;
 }
@@ -35,7 +35,7 @@ header {
     list-style-type: none;
     left: 35.5%;
     border-radius: 5px;
-    top: 55px;
+    top: 75px;
 }
 .lis2 {
     left:593.5pxpx;
@@ -47,7 +47,7 @@ header {
     transition: all 0.5s ease-in-out;
     list-style-type: none;
     border-radius: 5px;
-    top: 55px;
+    top: 75px;
 }
 .lis3 {
     left: 778px;
@@ -58,7 +58,7 @@ header {
     background-color: #fff;
     list-style-type: none;
     border-radius: 5px;
-    top: 55px;
+    top: 75px;
 }
 .lis4 {
     left: 817px;
@@ -70,7 +70,7 @@ header {
     transition: all 0.5s ease-in-out;
     list-style-type: none;
     border-radius: 5px;
-    top: 55px;
+    top: 75px;
 }
 .main-link-a:hover {
     color: #f28123 !important;
