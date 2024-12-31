@@ -25,8 +25,7 @@ header {
     padding: 8px;
 }
 
-.lis,
-.liis {
+.lis {
     visibility: hidden;
     padding: 20px 40px 20px 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
@@ -38,14 +37,28 @@ header {
     border-radius: 5px;
     top: 55px;
 }
-.liis {
-    left: 40.5px;
+.lis2 {
+    left: 632.5px;
+    visibility: hidden;
+    padding:20px 99px 24px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    position: absolute;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+    list-style-type: none;
+    border-radius: 5px;
+    top: 55px;
 }
 .main-link-a:hover {
     color: #f28123 !important;
     transition: all 0.5s ease-in-out;
 }
 .list:hover .lis {
+    transition: all 0.5s ease-in-out;
+    visibility: visible;
+    color: #000;
+}
+.list:hover .lis2 {
     transition: all 0.5s ease-in-out;
     visibility: visible;
     color: #000;
