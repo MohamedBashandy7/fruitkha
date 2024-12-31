@@ -101,12 +101,14 @@ header {
     padding-right: 30px;
 }
 .icon1:hover{
+    transition: all 0.5s ease-in-out;
     color: #f28123 !important;
 }
 .icon2{
     color: #fff;
 }
 .icon2:hover{
+    transition: all 0.5s ease-in-out;
     color: #f28123 !important;
 }
 .header-icons{
@@ -129,7 +131,7 @@ header {
     height: 43px;
 }
 .hrw0{
-    padding-top: 200px;
+    padding: 200px;
 }
 .hre {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
