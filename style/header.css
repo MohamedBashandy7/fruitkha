@@ -35,7 +35,7 @@ header {
     list-style-type: none;
     left: 34.5%;
     border-radius: 5px;
-    top: 50px;
+    top: 58px;
 }
 .lis2 {
     left:590.5px;
@@ -47,7 +47,7 @@ header {
     transition: all 0.5s ease-in-out;
     list-style-type: none;
     border-radius: 5px;
-    top: 50px;
+    top: 58px;
 }
 .lis3 {
     left: 650px;
@@ -58,7 +58,7 @@ header {
     background-color: #fff;
     list-style-type: none;
     border-radius: 5px;
-    top: 50px;
+    top: 58px;
 }
 .lis4 {
     left:779px;
@@ -70,7 +70,7 @@ header {
     transition: all 0.5s ease-in-out;
     list-style-type: none;
     border-radius: 5px;
-    top: 50px;
+    top: 58px;
 }
 .main-link-a:hover {
     color: #f28123 !important;
