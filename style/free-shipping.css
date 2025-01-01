@@ -33,13 +33,7 @@ free-shipping-card p {
 }
 
 @media (max-width: 768px) {
-    .free-shipping-card {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
     free-shipping-card {
-        width: 90%;
-        margin-bottom: 15px;
+        flex-direction: column;
     }
 }
