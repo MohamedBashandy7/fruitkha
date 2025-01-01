@@ -33,6 +33,13 @@ free-shipping-card p {
 }
 
 @media (max-width: 768px) {
+    free-shipping,
+    free-shipping-card {
+        flex-direction: column;
+    }
+}
+@media (max-width: 480px) {
+    free-shipping,
     free-shipping-card {
         flex-direction: column;
     }
