@@ -25,6 +25,7 @@ body {
 .bg-white-gray {
     background-color: #f5f5f5;
 }
+
 .py-70 {
     padding: 70px 0;
 }
@@ -45,6 +46,12 @@ body {
 }
 .py-20 {
     padding: 20px 0;
+}
+.py-30 {
+    padding: 30px 0;
+}
+.py-50 {
+    padding: 50px 0;
 }
 .btn-hover:hover {
     color: #f28123 !important;
