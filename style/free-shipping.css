@@ -36,11 +36,23 @@ free-shipping-card p {
     free-shipping,
     free-shipping-card {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    free-shipping-card-text h3 {
+        text-align: center;
     }
 }
 @media (max-width: 480px) {
     free-shipping,
     free-shipping-card {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    free-shipping-card-text h3 {
+        text-align: center;
     }
 }
