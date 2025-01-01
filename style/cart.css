@@ -17,3 +17,7 @@ thead {
     justify-content: space-between;
     gap: 20px;
 }
+.number{
+    padding: 10px;
+    width: 100PX;
+}
