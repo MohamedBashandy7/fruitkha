@@ -6,9 +6,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: -430px;
-    left: 80px;
+    position: absolute;
+    top: -38px;
+    left: 110px;
 }
 .socend-circle {
     background-color: #f28123;
@@ -241,4 +241,7 @@
     .Cart-link i {
         margin-right: 3px;
     }
+}
+.Month-Deal {
+    position: relative;
 }
