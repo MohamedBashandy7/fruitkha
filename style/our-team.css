@@ -1,0 +1,16 @@
+.our-team{
+    text-align: center;
+}
+.our-team p{
+    width: 40%;
+    margin: auto;
+}
+.our-team .card{
+    width: auto;
+    margin: 30px 15px;
+    border: none;
+}
+.our-team .card img{
+    border-radius: 10px;
+    margin: 20px 0;
+}
