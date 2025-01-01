@@ -1,59 +1,58 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
+.free-shipping {
+    background-color: #f5f5f5;
 }
-
-.saged-section {
-    background-color: #f3f4f6;
-    padding: 40px 20px;
+free-shipping {
     display: flex;
     justify-content: space-between;
+    padding: 0 100px;
+}
+free-shipping-card {
+    display: flex;
+    gap: 10px;
     align-items: center;
-    gap: 20px;
 }
-
-.saged-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    width: 300px;
-    padding: 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+free-shipping-card i {
+    font-size: 17px;
+    color: #f28123;
     text-align: center;
-    height: auto;
-}
-
-.saged-card i {
-    font-size: 2rem;
-    color: orange;
-    margin-bottom: 10px;
-    display: inline-block;
-    border: 2px dotted orange;
-    padding: 10px;
+    border: 1px #f28123 dotted;
     border-radius: 50%;
+    padding: 14px 12px;
 }
 
-.saged-card h3 {
-    font-size: 1.2rem;
+free-shipping-card h3 {
+    font-size: 16px;
     color: #333;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-.saged-card p {
+free-shipping-card p {
     font-size: 0.9rem;
     color: #555;
 }
 
 @media (max-width: 768px) {
-    .saged-section {
-        flex-wrap: wrap;
+    free-shipping,
+    free-shipping-card {
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
+        gap: 10px;
     }
-
-    .saged-card {
-        width: 90%;
-        margin-bottom: 15px;
+    free-shipping-card-text h3 {
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    free-shipping,
+    free-shipping-card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    free-shipping-card-text h3 {
+        text-align: center;
     }
 }
