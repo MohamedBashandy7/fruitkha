@@ -1,0 +1,19 @@
+thead {
+    border-width: 0;
+}
+.cart-table-head {
+    padding: 10px 45px;
+    font-weight: 400;
+    text-align: center;
+}
+.cart-table-row {
+    text-align: center;
+    border: 1px solid #efefef;
+    padding: 10px 0;
+    color: #051922;
+}
+.cart-tables {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}

@@ -5,59 +5,79 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Fruitkha</title>
         <link rel="stylesheet" href="../style/style.css" />
-        <link rel="stylesheet" href="../style/hero1.css">
+        <link rel="stylesheet" href="../style/cart.css" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
             rel="stylesheet" />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
             rel="stylesheet" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            rel="stylesheet" />
     </head>
     <body>
-        <div class="hero1">
-          <div class="cart1 ">
-            <table border="3">
-                <!-- <thead> -->
-                    <tr>
-                        <th></th>
-                        <th class="product-image">Product Image</th>
-                        <th class="product-name">Name</th>
-                        <th class="product-price">Price</th>
-                        <th class="product-quantity">Quantity</th>
-                        <th class="product-total">Total</th>
-                    </tr>
-                </thead>
-                <!-- <tbody> -->
-                    <tr>
-                        <td><a href="cart.html"><i class="far fa-window-close"></i></a></td>
-                        <td class="i"><img src="../imgs/products/product-img-1.jpg" alt="product1"></td>
-                        <td class="product-name">Strawberry</td>
-                        <td class="product-price"></td>
-                        <td  class="product-quantity"></td>
-                        <td class="product-total"></td>
-                    </tr>
-                    <tr>
-                        <td><a href="cart.html"><i class="far fa-window-close"></i></a></td>
-                        <td class="im"><img src="../imgs/products/product-img-2.jpg" alt="product2"></td>
-                        <td class="product-name"></td>
-                        <td class="product-price"></td>
-                        <td class="product-quantity"></td>
-                        <td class="product-total"></td>
-                    </tr>
-                    <tr>
-                        <td><a href="cart.html"><i class="far fa-window-close"></i></a></td>
-                        <td class="im"><img src="../imgs/products/product-img-3.jpg" alt="product3"></td>
-                        <td class="product-name"></td>
-                        <td class="product-price"></td>
-                        <td class="product-quantity"></td>
-                        <td class="product-total"></td>
-                    </tr>
-                </tbody>
-            </table>
-
-          </div>  
-
-        </div>
+        <section class="hero1 py-70">
+            <div class="container">
+                <div class="cart-tables">
+                    <table>
+                        <thead>
+                            <tr class="bg-gray-white">
+                                <th></th>
+                                <th class="cart-table-head">Product Image</th>
+                                <th class="cart-table-head">Name</th>
+                                <th class="cart-table-head">Price</th>
+                                <th class="cart-table-head">Quantity</th>
+                                <th class="cart-table-head">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="cart-table-row">
+                                    <a href="cart.html" class="text-black px-3">
+                                        <i class="far fa-window-close"></i>
+                                    </a>
+                                </td>
+                                <td class="cart-table-row">
+                                    <img
+                                        src="../imgs/products/product-img-1.jpg"
+                                        alt="product1"
+                                        width="50px" />
+                                </td>
+                                <td class="cart-table-row">Strawberry</td>
+                                <td class="cart-table-row"></td>
+                                <td class="cart-table-row"></td>
+                                <td class="cart-table-row"></td>
+                            </tr>
+                            <!-- <tr>
+                                <td>
+                                    <a href="cart.html"><i class="far fa-window-close"></i></a>
+                                </td>
+                                <td class="im">
+                                    <img src="../imgs/products/product-img-2.jpg" alt="product2" />
+                                </td>
+                                <td class="product-name"></td>
+                                <td class="product-price"></td>
+                                <td class="product-quantity"></td>
+                                <td class="product-total"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="cart.html"><i class="far fa-window-close"></i></a>
+                                </td>
+                                <td class="im">
+                                    <img src="../imgs/products/product-img-3.jpg" alt="product3" />
+                                </td>
+                                <td class="product-name"></td>
+                                <td class="product-price"></td>
+                                <td class="product-quantity"></td>
+                                <td class="product-total"></td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
