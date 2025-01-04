@@ -9,8 +9,27 @@
     width: auto;
     margin: 30px 15px;
     border: none;
+    position: relative;
 }
 .our-team .card img{
     border-radius: 10px;
     margin: 20px 0;
+}
+.social-icons{
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+}
+.social-icons a{
+    background-color: #f28123;
+    color: white;
+    font-size: small;
+    border-radius: 100%;
+    padding: 13px 16px;
+    margin: 0 5px;
+}
+.social-icons a:hover{
+    background-color: #051922;
+    color: #f28123;
+    transition: 0.5s;
 }
