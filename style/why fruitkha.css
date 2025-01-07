@@ -14,8 +14,6 @@
 .why-fruitkha-user{
      display:flex;
      flex-direction: column;
-    margin-left: -40px;
-
 }
 .why-fruitkha-img{
     background-image: url(../imgs/abt.jpg);
@@ -24,7 +22,7 @@
     top: 494px;
     width: 40%;
     height: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     content: "";
     background-size: cover;
     background-position: center;
