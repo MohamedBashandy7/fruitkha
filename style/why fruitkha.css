@@ -1,66 +1,22 @@
-.why-fruitkha-hero{
-    padding: 100px 60px 20px;
-    gap: 20px;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 40px;
+.why-fruitkha-h1 {
+    margin: 0;
 }
-.why-fruitkha-div-head{
-    gap: 10px;
+.why-fruitkha-text {
+    width: 200px;
 }
-.why-fruitkha-head{
-    color: #F28123;
+.why-fruitkha {
+    gap: 70px !important;
 }
-.why-fruitkha-user{
-     display:flex;
-     flex-direction: column;
-    margin-left: -40px;
-
+.why-fruitkha-img {
+    border-radius: 5px;
 }
-.why-fruitkha-img{
-    background-image: url(../imgs/abt.jpg);
-    position: absolute;
-    right: 0;
-    top: 494px;
-    width: 40%;
-    height: 100%;
-    margin-bottom: 50px;
-    content: "";
-    background-size: cover;
-    background-position: center;
-    border-top-left-radius: 5px;
-    -webkit-box-shadow: 0 0 20px #cacaca;
-    box-shadow: 0 0 20px #cacaca;
-    box-sizing: border-box;
-    border-bottom-left-radius: 5px;
-}
-.why-fruitkha{
-    gap: 50px;
-}
-.rest-price{
-  margin-left: 40px;
-}
-.why-fruitkha-half{
-    margin-top: 40px;
-    gap: 10px;
-}
-.why-fruitkha-icon{
-    display: block;
-    font-size: 24px;
-    margin-right: 15px;
-    color: #F28123;
-    width: 65px;
-    height: 65px;
+.why-fruitkha-icon {
+    font-size: 20px;
+    color: #f28123;
+    width: 50px;
+    height: 50px;
     text-align: center;
-    line-height: 60px;
-    border: 2px #F28123 dotted;
-    border-radius: 999px;
-}
-p{
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    letter-spacing: 0.1px;
-    line-height: 1.8;
-    color: #051922;
+    line-height: 45px;
+    border: 2px #f28123 dotted;
+    border-radius: 50%;
 }
