@@ -1,6 +1,9 @@
 .why-fruitkha-hero{
     padding: 100px 60px 20px;
     gap: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
 }
 .why-fruitkha-div-head{
     gap: 10px;
@@ -11,12 +14,31 @@
 .why-fruitkha-user{
      display:flex;
      flex-direction: column;
+    margin-left: -40px;
+
 }
 .why-fruitkha-img{
-    border: 3 #efefef;
+    background-image: url(../imgs/abt.jpg);
+    position: absolute;
+    right: 0;
+    top: 494px;
+    width: 40%;
+    height: 100%;
+    margin-bottom: 50px;
+    content: "";
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    -webkit-box-shadow: 0 0 20px #cacaca;
+    box-shadow: 0 0 20px #cacaca;
+    box-sizing: border-box;
+    border-bottom-left-radius: 5px;
 }
 .why-fruitkha{
     gap: 50px;
+}
+.rest-price{
+  margin-left: 40px;
 }
 .why-fruitkha-half{
     margin-top: 40px;
