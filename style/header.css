@@ -6,8 +6,8 @@ header {
 .main-list {
     display: flex;
     list-style-type: none;
-    gap: 20px;
-    margin: 0 100px 0 0;
+    gap: 30px;
+    margin: 0 50px 0 0;
 }
 .header {
     padding: 20px 100px;
@@ -49,25 +49,25 @@ header {
     padding: 20px 40px 20px 15px;
     border-radius: 5px;
     left: 35.7%;
-    top: 58px;
+    top: 70px;
 }
 .page-list {
     border-radius: 5px;
     padding: 20px 99px 24px 10px;
-    left: 604.5px;
-    top: 58px;
+    left: 622.5px;
+    top: 70px;
 }
 .news-list {
-    left: 661px;
+    left: 692px;
     padding: 20px 40px 24px 5px;
     border-radius: 5px;
-    top: 58px;
+    top: 70px;
 }
 .shop-list {
-    left: 790px;
+    left: 840px;
     padding: 20px 40px 24px 5px;
     border-radius: 5px;
-    top: 58px;
+    top: 70px;
 }
 .main-link-a:hover {
     color: #f28123 !important;
