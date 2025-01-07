@@ -1,26 +1,10 @@
 thead {
     border-width: 0;
 }
-.cart-header-padding {
-    padding: 140px;
-    margin-top: 20px;
-}
 .cart-table-head {
     padding: 10px 43px;
     font-weight: 400;
     text-align: center;
-}
-.cart-header-main-h1 {
-    font-size: 50px;
-    font-weight: 900;
-    letter-spacing: 5px;
-}
-.cart-header-main-h6 {
-    color: #f28123;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 0.8rem;
 }
 .cart-table-row {
     text-align: center;

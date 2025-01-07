@@ -1,26 +1,26 @@
-.our-team{
+.our-team {
     text-align: center;
 }
-.our-team p{
+.our-team p {
     width: 40%;
     margin: auto;
 }
-.our-team .card{
+.our-team .card {
     width: auto;
     margin: 30px 15px;
     border: none;
     position: relative;
 }
-.our-team .card img{
+.our-team .card img {
     border-radius: 10px;
     margin: 20px 0;
 }
-.social-icons{
+.social-icons {
     position: absolute;
     bottom: 100px;
     width: 100%;
 }
-.social-icons a{
+.social-icons a {
     background-color: #f28123;
     color: white;
     font-size: small;
@@ -28,7 +28,7 @@
     padding: 13px 15px;
     margin: 0 5px;
 }
-.social-icons .facebook-icon{
+.social-icons .facebook-icon {
     background-color: #f28023;
     color: white;
     font-size: small;
@@ -36,7 +36,7 @@
     padding: 13px 17px;
     margin: 0 5px;
 }
-.social-icons a:hover{
+.social-icons a:hover {
     background-color: #051922;
     color: #f28123;
     transition: 0.5s;

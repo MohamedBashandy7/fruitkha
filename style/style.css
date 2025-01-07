@@ -3,6 +3,23 @@ body {
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
+.header-padding {
+    padding: 140px;
+    margin-top: 20px;
+}
+
+.header-main-h1 {
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.header-main-h6 {
+    color: #f28123;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
 .orange-text {
     color: #f28123 !important;
 }
@@ -58,6 +75,9 @@ body {
 }
 .fw-400 {
     font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
 }
 .btn-hover:hover {
     color: #f28123 !important;
