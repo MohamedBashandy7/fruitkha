@@ -49,25 +49,25 @@ header {
     padding: 20px 40px 20px 15px;
     border-radius: 5px;
     left: 35.7%;
-    top: 58px;
+    top: 70px;
 }
 .page-list {
     border-radius: 5px;
     padding: 20px 99px 24px 10px;
     left: 604.5px;
-    top: 58px;
+    top: 70px;
 }
 .news-list {
     left: 661px;
     padding: 20px 40px 24px 5px;
     border-radius: 5px;
-    top: 58px;
+    top: 70px;
 }
 .shop-list {
     left: 790px;
     padding: 20px 40px 24px 5px;
     border-radius: 5px;
-    top: 58px;
+    top: 70px;
 }
 .main-link-a:hover {
     color: #f28123 !important;

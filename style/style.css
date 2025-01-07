@@ -53,6 +53,12 @@ body {
 .py-50 {
     padding: 50px 0;
 }
+.py-15 {
+    padding: 15px 0;
+}
+.fw-400 {
+    font-weight: 400;
+}
 .btn-hover:hover {
     color: #f28123 !important;
     background-color: black;
@@ -63,6 +69,9 @@ body {
     line-height: 1.8rem;
     color: #051922;
     letter-spacing: 0.5px;
+}
+.bg-blue-black-bage {
+    background-color: #374b56;
 }
 .text-bold {
     font-weight: bold;
