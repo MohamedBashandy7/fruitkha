@@ -1,0 +1,42 @@
+.single-news-head{
+    font-size: 25px;
+    font-weight: 600;
+}
+.single-news{
+    display: flex;
+    flex-direction: column;
+}
+.single-news-input{
+    width: 362px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 10px 10px 10px 0;
+}
+.single-news-input-message{
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 15px;
+    height: 200px;
+    width: 66%;
+    resize: none;
+}
+.single-news-input-button{
+    border: solid 7px #f28123;
+    background-color: #f28123;
+    color: #fff;
+    border-radius: 50px;
+    padding: 4px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 30px;
+    margin-top: 10px;
+    margin-left: -2px;
+    margin-right: 857px;
+}
+.single-news-input-button:hover {
+    background-color: black;
+    color: #f28123;
+    transition: all 0.5s ease-in-out;
+    border: solid 7px black;
+}
