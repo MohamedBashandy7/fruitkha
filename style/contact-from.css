@@ -9,13 +9,13 @@
     font-size: 30px;
     padding-right: 0;
     margin-right: 0;
+    line-height: 3.25rem;
 }
 .from-text {
     padding-top: 30px;
-    width: 932px;
 }
 .form-input {
-    width: 410px;
+    width: 361px;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 3px;
@@ -26,18 +26,21 @@
     border-radius: 3px;
     padding: 15px;
     height: 200px;
-    width: 75%;
+    width: 85%;
     resize: none;
 }
 .form-input-button {
-    border: solid 7px#F28123;
+    border: solid 7px #f28123;
     background-color: #f28123;
     color: #fff;
     border-radius: 50px;
-    padding: 4px 10px;
+    padding: 4px 0px;
     text-decoration: none;
     font-size: 20px;
     font-weight: 30px;
+    margin-top: 10px;
+    margin-left: 260px;
+    margin-right: 380px;
 }
 .form-input-button:hover {
     background-color: black;
@@ -47,4 +50,9 @@
 }
 .icon {
     color: #f28123;
+}
+.contact {
+    margin-top: 50px;
+    background-color: #fbfbfb;
+    padding-left: 50px;
 }
