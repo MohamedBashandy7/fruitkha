@@ -1,34 +1,33 @@
-.from{
+.from {
     display: flex;
     flex-direction: row;
     margin-right: -50px;
     /* padding-left: 50px; */
 }
-.from-head{
-    padding-top:60px;
+.contact-us-head {
+    padding-top: 60px;
     font-size: 30px;
     padding-right: 0;
     margin-right: 0;
 }
-.from-text{
+.from-text {
     padding-top: 30px;
-    width:932px;
+    width: 932px;
 }
-.form-input{
-    width:410PX;
+.form-input {
+    width: 410px;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 3px;
-    margin:10PX 10PX 10PX 0;
+    margin: 10px 10px 10px 0;
 }
-.form-input-message{
+.form-input-message {
     border: 1px solid #ddd;
     border-radius: 3px;
     padding: 15px;
     height: 200px;
-    width:  75%;
+    width: 75%;
     resize: none;
-
 }
 .form-input-button {
     border: solid 7px#F28123;
@@ -46,6 +45,6 @@
     transition: all 0.5s ease-in-out;
     border: solid 7px black;
 }
-.icon{
-    color: #F28123;
+.icon {
+    color: #f28123;
 }
