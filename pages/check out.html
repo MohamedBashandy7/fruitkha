@@ -9,8 +9,8 @@
         <link rel="stylesheet" href="../style/main-deal.css" />
         <link rel="stylesheet" href="../style/footer.css" />
         <link rel="stylesheet" href="../style/header.css" />
+        <link rel="stylesheet" href="../style/check-out.css">
         <link rel="icon" href="../imgs/favicon.png" type="image/x-icon" />
-
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
             rel="stylesheet" />
@@ -176,6 +176,81 @@
             </div>
         </header>
         <!-- ! end header -->
+        <!-- ! Start Check Out -->
+        <section class="check-out">
+            <div class="container">
+                <div class="row">
+                    <div class="slice1 col-lg-8">
+                        <h5 class="btn-bg mb-0">
+                            <button class="btn btn-link" type="button">
+                                Billing Address
+                            </button>
+                        </h5>
+                        <form class="out-form">
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Address">
+                            <input type="tel" placeholder="Phone">
+                            <textarea name="bill" id="bill" cols="30" rows="10" placeholder="Say Something"></textarea>
+                        </form>
+                        <h5 class="btn-bg mb-0">
+                            <button class="btn btn-link" type="button">
+                                Shipping Address
+                            </button>
+                        </h5>
+                        <h5 class="btn-bg mb-0">
+                            <button class="btn btn-link" type="button">
+                                Card Details
+                            </button>
+                        </h5>
+                    </div>
+                    <div class="col-lg-4">
+                        <table class="order-details">
+							<thead>
+								<tr>
+									<th>Your order Details</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Product</td>
+									<td>Total</td>
+								</tr>
+								<tr>
+									<td>Strawberry</td>
+									<td>$85.00</td>
+								</tr>
+								<tr>
+									<td>Berry</td>
+									<td>$70.00</td>
+								</tr>
+								<tr>
+									<td>Lemon</td>
+									<td>$35.00</td>
+								</tr>
+							</tbody>
+							<tbody class="checkout-details">
+								<tr>
+									<td>Subtotal</td>
+									<td>$190</td>
+								</tr>
+								<tr>
+									<td>Shipping</td>
+									<td>$50</td>
+								</tr>
+								<tr>
+									<td>Total</td>
+									<td>$240</td>
+								</tr>
+							</tbody>
+						</table>
+                        <a href="#" class="boxed-btn">Place Order</a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <!-- ! end Check Out -->
         <!-- ! Footer -->
         <!-- * start footer -->
         <footer class="footer">
