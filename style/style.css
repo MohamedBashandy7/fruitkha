@@ -79,6 +79,12 @@ body {
 .fw-500 {
     font-weight: 500;
 }
+.fw-600 {
+    font-weight: 600;
+}
+.fw-800 {
+    font-weight: 800;
+}
 .btn-hover:hover {
     color: #f28123 !important;
     background-color: black;

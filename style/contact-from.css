@@ -1,58 +1,48 @@
-.from {
+.contact-us {
     display: flex;
-    flex-direction: row;
-    margin-right: -50px;
-    /* padding-left: 50px; */
 }
 .contact-us-head {
-    padding-top: 60px;
-    font-size: 30px;
-    padding-right: 0;
-    margin-right: 0;
+    color: #051922;
+    font-weight: 700;
     line-height: 3.25rem;
 }
-.from-text {
-    padding-top: 30px;
+.contact-us-form-text {
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 10px;
 }
-.form-input {
-    width: 361px;
+.contact-us-form-icon {
+    font-size: 20px;
+}
+.contact-us-card-text {
+    padding-left: 34px;
+}
+.contact-us-card {
+    background-color: #fbfbfb;
+    padding: 20px;
+    width: 500px;
+}
+.contact-us-form-input {
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 3px;
     margin: 10px 10px 10px 0;
+    width: 45%;
 }
-.form-input-message {
+.contact-us-message {
     border: 1px solid #ddd;
     border-radius: 3px;
     padding: 15px;
     height: 200px;
-    width: 85%;
+    width: 91.8%;
     resize: none;
 }
 .form-input-button {
-    border: solid 7px #f28123;
+    border: solid 1px #f28123;
     background-color: #f28123;
-    color: #fff;
     border-radius: 50px;
-    padding: 4px 0px;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 30px;
-    margin-top: 10px;
-    margin-left: 260px;
-    margin-right: 380px;
-}
-.form-input-button:hover {
-    background-color: black;
-    color: #f28123;
-    transition: all 0.5s ease-in-out;
-    border: solid 7px black;
-}
-.icon {
-    color: #f28123;
-}
-.contact {
-    margin-top: 50px;
-    background-color: #fbfbfb;
-    padding-left: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 30px;
 }
