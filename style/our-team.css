@@ -41,3 +41,12 @@
     color: #f28123;
     transition: 0.5s;
 }
+/* Mobile Devices */
+/* @media (max-width: 480px) {
+    .our-team{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+} */
