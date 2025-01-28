@@ -26,11 +26,15 @@
     list-style-type: none;
     text-decoration: none;
     background-color: #ddd;
+    color:#000;
     margin-top: 50px;
     padding: 10px 10px;
     border-radius: 5px;
     margin-bottom: 10px;
     margin-right: 5px;
+}
+.single-news-half-head-icon:hover {
+    background-color: rgb(201, 199, 199);
 }
 .single-news-cender-half-avatar {
     border-radius: 50px;
@@ -49,7 +53,7 @@
 .single-news-cender-half-all {
     list-style-type: none;
     text-decoration: none;
-    border-bottom: 3px solid#aaa;
+    border-bottom: 1px solid#aaa;
     color: #000;
 }
 .single-news-li {
